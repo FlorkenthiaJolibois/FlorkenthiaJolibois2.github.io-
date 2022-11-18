@@ -1,0 +1,259 @@
+<html>
+    <head>
+        <title>Black Joy Spa & Salon</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js"></script>
+        <link rel = "icon" href = "https://www.angularjswiki.com/fontawesome/logistics/">        
+    </head>
+    
+    <body onload="myFunction()">
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>Black Joy Spa & Salon</span>
+                </div>
+                <div>
+                <img src="black-joy-spa-salon-logo.png" style="height:80;width:80;border-radius:50%;"></div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>You Should Treat Yourself!!!</h2>
+                <p>Welcome to Black Joy Spa & Salon. Please take a look at our page to see if it best fits what you need.</span></p>
+                <button type = "button" class = "head-btn"><a href = "#services" style="text-decoration: none;color:white;">BEGIN</a></button>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">Home</a></li>
+                <li><a href = "#our_services">Our Services</a></li>
+                <li><a href = "about_us.html">About Us</a></li>
+                <li><a href = "contact_us.html">Contact Us</a></li>
+                <li><a href = "#customers">Client Reviews</a></li>
+            </ul>
+        </div>
+        <!-- end of side navbar -->
+
+        
+        <div id = "modal"></div>
+        
+
+        <!-- body -->
+        <section class = "services sec-width" id = "our_services">
+            <div class = "title">
+                <h3>Our Services</h3>
+            </div>
+            <div class = "our_services-container">
+               
+                <article class = "our_service">
+                    <div class = "our_service-icon">
+                        <span>
+                            <i class = "fas fa-certificate"></i>
+                        </span>
+                    </div>
+                    <div class = "our_service-content">
+                        <h2>Facials</h2>
+                        <p>We have all kinds of facials here at Black Joy Spa & Salon, here are the following:<b>Classic, Anti-Aging, Brightening, IRL, and Hydrating facials</b></p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+                <article class = "our_service">
+                    <div class = "our_service-icon">
+                        <span>
+                            <i class='fa-solid fa-face-smile'></i>
+                        </span>
+                    </div>
+                    <div class = "our_service-content">
+                        <h2>Body Shaping</h2>
+                        <p>Body Shaping also known as body sculpting is a controlled   fat reduction and body contouring procedure. It’s a non-surgical treatment that safely removes stubborn fat deposits from the body. If you have difficulty shedding fat in your belly and other parts, consider body sculpting at our office. The procedure works to create a more sculpted shape. has rounded edges ideal for small breeds and pups. They all are made from animal safe, food grade and virgin plastic. So, have some fun with your Dog and give him a Happier Playtime.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+                <article class = "our_service">
+                    <div class = "our_service-icon">
+                        <span>
+                            <i class="fa-light fa-people-simple"></i>
+                        </span>
+                    </div>
+                    <div class = "our_service-content">
+                        <h2>LED Treatments</h2>
+                        <p>LED (light-emitting diode) light therapy treats various skin conditions and concerns, such as acne, fine lines and psoriasis. It comes in different types, including red light LED therapy and blue light LED therapy, which are sometimes used in combination.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+                <article class = "our_service">
+                    <div class = "our_service-icon">
+                        <span>
+                            <i class="fa-regular fa-lamp-desk"></i>
+                        </span>
+                    </div>
+                    <div class = "our_service-content">
+                        <h2>Waxing &amp; Tinting</h2>
+                        <p>Keep your skin smooth... </b></p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <article class = "our_service">
+                    <div class = "our_service-icon">
+                        <span>
+                            <i class="fa-regular fa-heat"></i>
+                        </span>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <div class = "book">
+            <div class = "title">
+                <h3>Make A Reservations</h3>
+            </div>
+            
+            
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "date">Date: </label>
+                    <input type = "date" id = "date">
+                </div>
+                <div class = "form-item">
+                    <label for = "time">Time: </label>
+                    <input type = "time" id = "time">
+                </div>
+                <div class = "form-item">
+                    <label for = "service">Service: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <a href="book_now.html"> <input type = "button" class = "btn" value = "Book Now"></a>
+                </div>
+            </form>
+            
+        </div>
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h3>Customers Review</h3>
+                </div>
+                <div class = "customers-container">
+                   
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Amazing Service</h3>
+                        <p>The staff was great, they made me feel very comfortable!!</p>
+                        <img src = "Jessica-Alba.webp" alt = "customer image">
+                        <span>Jessica, Worcester (MA)</span>
+                    </div>
+                   
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Best Facials</h3>
+                        <p>I was a little nervous about going to get a facial but JJ ensured me that it will be one of the best facials I will ever get and I could speak up if there was any issues.</p>
+                        <img src = "" alt = "customer image">
+                        <span>Lizbeth, Worcester(MA)</span>
+                        
+                    </div>
+                   
+                    
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <img src="black-joy-spa-salon-logo.png" style="border-radius:50%; height:180; width:160">
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "about_us.html">About Us</a>
+                    <a href = "contact_us.html">Contact Us</a>
+                    <a href = "#our_services">Our Services</a>
+                </div>
+
+                
+                <div>
+                    <h2>Still Have Questions</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            333 Shrewbury St, Worcester MA
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            (508)-274-1906
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            Blackjoyspa-salon@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        
+        <script src="index.js"></script>
+        <div>
+            <h4><center>Copyrights @ Florkenthia Jolibois - 2022</center></h4>
+        </div>
+    </body>
+</html>
